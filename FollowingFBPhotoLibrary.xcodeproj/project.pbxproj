@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81FB8AAB157BB185003DFC07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB8AAA157BB185003DFC07 /* UIKit.framework */; };
+		81FB8AAD157BB185003DFC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB8AAC157BB185003DFC07 /* Foundation.framework */; };
+		81FB8AAF157BB185003DFC07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB8AAE157BB185003DFC07 /* CoreGraphics.framework */; };
+		81FB8AB5157BB185003DFC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81FB8AB3157BB185003DFC07 /* InfoPlist.strings */; };
+		81FB8AB7157BB185003DFC07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FB8AB6157BB185003DFC07 /* main.m */; };
+		81FB8ABB157BB185003DFC07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FB8ABA157BB185003DFC07 /* AppDelegate.m */; };
+		81FB8AC3157BB221003DFC07 /* PhotoContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FB8AC2157BB221003DFC07 /* PhotoContentViewController.m */; };
+		81FB8AC6157BB278003DFC07 /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FB8AC5157BB278003DFC07 /* PhotoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81FB8AA6157BB185003DFC07 /* FollowingFBPhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowingFBPhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FB8AAA157BB185003DFC07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81FB8AAC157BB185003DFC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81FB8AAE157BB185003DFC07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81FB8AB2157BB185003DFC07 /* FollowingFBPhotoLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FollowingFBPhotoLibrary-Info.plist"; sourceTree = "<group>"; };
+		81FB8AB4157BB185003DFC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81FB8AB6157BB185003DFC07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81FB8AB8157BB185003DFC07 /* FollowingFBPhotoLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FollowingFBPhotoLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		81FB8AB9157BB185003DFC07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81FB8ABA157BB185003DFC07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81FB8AC1157BB221003DFC07 /* PhotoContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoContentViewController.h; sourceTree = "<group>"; };
+		81FB8AC2157BB221003DFC07 /* PhotoContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoContentViewController.m; sourceTree = "<group>"; };
+		81FB8AC4157BB278003DFC07 /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		81FB8AC5157BB278003DFC07 /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81FB8AA3157BB185003DFC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB8AAB157BB185003DFC07 /* UIKit.framework in Frameworks */,
+				81FB8AAD157BB185003DFC07 /* Foundation.framework in Frameworks */,
+				81FB8AAF157BB185003DFC07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81FB8A9B157BB184003DFC07 = {
+			isa = PBXGroup;
+			children = (
+				81FB8AB0157BB185003DFC07 /* FollowingFBPhotoLibrary */,
+				81FB8AA9157BB185003DFC07 /* Frameworks */,
+				81FB8AA7157BB185003DFC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81FB8AA7157BB185003DFC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81FB8AA6157BB185003DFC07 /* FollowingFBPhotoLibrary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81FB8AA9157BB185003DFC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81FB8AAA157BB185003DFC07 /* UIKit.framework */,
+				81FB8AAC157BB185003DFC07 /* Foundation.framework */,
+				81FB8AAE157BB185003DFC07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81FB8AB0157BB185003DFC07 /* FollowingFBPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				81FB8AB9157BB185003DFC07 /* AppDelegate.h */,
+				81FB8ABA157BB185003DFC07 /* AppDelegate.m */,
+				81FB8AB1157BB185003DFC07 /* Supporting Files */,
+				81FB8AC1157BB221003DFC07 /* PhotoContentViewController.h */,
+				81FB8AC2157BB221003DFC07 /* PhotoContentViewController.m */,
+				81FB8AC4157BB278003DFC07 /* PhotoView.h */,
+				81FB8AC5157BB278003DFC07 /* PhotoView.m */,
+			);
+			path = FollowingFBPhotoLibrary;
+			sourceTree = "<group>";
+		};
+		81FB8AB1157BB185003DFC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81FB8AB2157BB185003DFC07 /* FollowingFBPhotoLibrary-Info.plist */,
+				81FB8AB3157BB185003DFC07 /* InfoPlist.strings */,
+				81FB8AB6157BB185003DFC07 /* main.m */,
+				81FB8AB8157BB185003DFC07 /* FollowingFBPhotoLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81FB8AA5157BB185003DFC07 /* FollowingFBPhotoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FB8ABE157BB185003DFC07 /* Build configuration list for PBXNativeTarget "FollowingFBPhotoLibrary" */;
+			buildPhases = (
+				81FB8AA2157BB185003DFC07 /* Sources */,
+				81FB8AA3157BB185003DFC07 /* Frameworks */,
+				81FB8AA4157BB185003DFC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollowingFBPhotoLibrary;
+			productName = FollowingFBPhotoLibrary;
+			productReference = 81FB8AA6157BB185003DFC07 /* FollowingFBPhotoLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81FB8A9D157BB184003DFC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 81FB8AA0157BB184003DFC07 /* Build configuration list for PBXProject "FollowingFBPhotoLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81FB8A9B157BB184003DFC07;
+			productRefGroup = 81FB8AA7157BB185003DFC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81FB8AA5157BB185003DFC07 /* FollowingFBPhotoLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81FB8AA4157BB185003DFC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB8AB5157BB185003DFC07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81FB8AA2157BB185003DFC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB8AB7157BB185003DFC07 /* main.m in Sources */,
+				81FB8ABB157BB185003DFC07 /* AppDelegate.m in Sources */,
+				81FB8AC3157BB221003DFC07 /* PhotoContentViewController.m in Sources */,
+				81FB8AC6157BB278003DFC07 /* PhotoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81FB8AB3157BB185003DFC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FB8AB4157BB185003DFC07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81FB8ABC157BB185003DFC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81FB8ABD157BB185003DFC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81FB8ABF157BB185003DFC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FollowingFBPhotoLibrary/FollowingFBPhotoLibrary-Prefix.pch";
+				INFOPLIST_FILE = "FollowingFBPhotoLibrary/FollowingFBPhotoLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81FB8AC0157BB185003DFC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FollowingFBPhotoLibrary/FollowingFBPhotoLibrary-Prefix.pch";
+				INFOPLIST_FILE = "FollowingFBPhotoLibrary/FollowingFBPhotoLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81FB8AA0157BB184003DFC07 /* Build configuration list for PBXProject "FollowingFBPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FB8ABC157BB185003DFC07 /* Debug */,
+				81FB8ABD157BB185003DFC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FB8ABE157BB185003DFC07 /* Build configuration list for PBXNativeTarget "FollowingFBPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FB8ABF157BB185003DFC07 /* Debug */,
+				81FB8AC0157BB185003DFC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81FB8A9D157BB184003DFC07 /* Project object */;
+}
