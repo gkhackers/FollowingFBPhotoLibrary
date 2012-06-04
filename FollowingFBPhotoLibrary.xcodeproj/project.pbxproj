@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053C89F3157C4B00003F6E0F /* ThumbnailImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 053C89E7157C4B00003F6E0F /* ThumbnailImageView.m */; };
+		053C89F4157C4B00003F6E0F /* AlbumContentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 053C89E9157C4B00003F6E0F /* AlbumContentsTableViewCell.m */; };
+		053C89F5157C4B00003F6E0F /* AlbumContentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053C89EA157C4B00003F6E0F /* AlbumContentsTableViewCell.xib */; };
+		053C89F6157C4B00003F6E0F /* AlbumContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053C89EC157C4B00003F6E0F /* AlbumContentsViewController.m */; };
+		053C89F7157C4B00003F6E0F /* AlbumContentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053C89ED157C4B00003F6E0F /* AlbumContentsViewController.xib */; };
+		053C89F8157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053C89EF157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.m */; };
+		053C89F9157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053C89F0157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.xib */; };
+		053C89FA157C4B00003F6E0F /* ImageMultiPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053C89F2157C4B00003F6E0F /* ImageMultiPickerController.m */; };
+		053C8A1D157C789E003F6E0F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053C8A1C157C789E003F6E0F /* AssetsLibrary.framework */; };
+		05803D38157C908700C59932 /* PhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05803D36157C908700C59932 /* PhotoViewer.m */; };
+		05803D39157C908700C59932 /* PhotoViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05803D37157C908700C59932 /* PhotoViewer.xib */; };
 		81FB8AAB157BB185003DFC07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB8AAA157BB185003DFC07 /* UIKit.framework */; };
 		81FB8AAD157BB185003DFC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB8AAC157BB185003DFC07 /* Foundation.framework */; };
 		81FB8AAF157BB185003DFC07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB8AAE157BB185003DFC07 /* CoreGraphics.framework */; };
@@ -18,6 +29,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053C89E6157C4B00003F6E0F /* ThumbnailImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailImageView.h; sourceTree = "<group>"; };
+		053C89E7157C4B00003F6E0F /* ThumbnailImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailImageView.m; sourceTree = "<group>"; };
+		053C89E8157C4B00003F6E0F /* AlbumContentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumContentsTableViewCell.h; sourceTree = "<group>"; };
+		053C89E9157C4B00003F6E0F /* AlbumContentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumContentsTableViewCell.m; sourceTree = "<group>"; };
+		053C89EA157C4B00003F6E0F /* AlbumContentsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumContentsTableViewCell.xib; sourceTree = "<group>"; };
+		053C89EB157C4B00003F6E0F /* AlbumContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumContentsViewController.h; sourceTree = "<group>"; };
+		053C89EC157C4B00003F6E0F /* AlbumContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumContentsViewController.m; sourceTree = "<group>"; };
+		053C89ED157C4B00003F6E0F /* AlbumContentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumContentsViewController.xib; sourceTree = "<group>"; };
+		053C89EE157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsDataIsInaccessibleViewController.h; sourceTree = "<group>"; };
+		053C89EF157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsDataIsInaccessibleViewController.m; sourceTree = "<group>"; };
+		053C89F0157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssetsDataIsInaccessibleViewController.xib; sourceTree = "<group>"; };
+		053C89F1157C4B00003F6E0F /* ImageMultiPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMultiPickerController.h; sourceTree = "<group>"; };
+		053C89F2157C4B00003F6E0F /* ImageMultiPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMultiPickerController.m; sourceTree = "<group>"; };
+		053C8A1C157C789E003F6E0F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		05803D35157C908700C59932 /* PhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewer.h; sourceTree = "<group>"; };
+		05803D36157C908700C59932 /* PhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewer.m; sourceTree = "<group>"; };
+		05803D37157C908700C59932 /* PhotoViewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewer.xib; sourceTree = "<group>"; };
 		81FB8AA6157BB185003DFC07 /* FollowingFBPhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowingFBPhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FB8AAA157BB185003DFC07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81FB8AAC157BB185003DFC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053C8A1D157C789E003F6E0F /* AssetsLibrary.framework in Frameworks */,
 				81FB8AAB157BB185003DFC07 /* UIKit.framework in Frameworks */,
 				81FB8AAD157BB185003DFC07 /* Foundation.framework in Frameworks */,
 				81FB8AAF157BB185003DFC07 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +97,7 @@
 		81FB8AA9157BB185003DFC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				053C8A1C157C789E003F6E0F /* AssetsLibrary.framework */,
 				81FB8AAA157BB185003DFC07 /* UIKit.framework */,
 				81FB8AAC157BB185003DFC07 /* Foundation.framework */,
 				81FB8AAE157BB185003DFC07 /* CoreGraphics.framework */,
@@ -78,6 +108,19 @@
 		81FB8AB0157BB185003DFC07 /* FollowingFBPhotoLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				053C89E6157C4B00003F6E0F /* ThumbnailImageView.h */,
+				053C89E7157C4B00003F6E0F /* ThumbnailImageView.m */,
+				053C89E8157C4B00003F6E0F /* AlbumContentsTableViewCell.h */,
+				053C89E9157C4B00003F6E0F /* AlbumContentsTableViewCell.m */,
+				053C89EA157C4B00003F6E0F /* AlbumContentsTableViewCell.xib */,
+				053C89EB157C4B00003F6E0F /* AlbumContentsViewController.h */,
+				053C89EC157C4B00003F6E0F /* AlbumContentsViewController.m */,
+				053C89ED157C4B00003F6E0F /* AlbumContentsViewController.xib */,
+				053C89EE157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.h */,
+				053C89EF157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.m */,
+				053C89F0157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.xib */,
+				053C89F1157C4B00003F6E0F /* ImageMultiPickerController.h */,
+				053C89F2157C4B00003F6E0F /* ImageMultiPickerController.m */,
 				81FB8AB9157BB185003DFC07 /* AppDelegate.h */,
 				81FB8ABA157BB185003DFC07 /* AppDelegate.m */,
 				81FB8AB1157BB185003DFC07 /* Supporting Files */,
@@ -85,6 +128,9 @@
 				81FB8AC2157BB221003DFC07 /* PhotoContentViewController.m */,
 				81FB8AC4157BB278003DFC07 /* PhotoView.h */,
 				81FB8AC5157BB278003DFC07 /* PhotoView.m */,
+				05803D35157C908700C59932 /* PhotoViewer.h */,
+				05803D36157C908700C59932 /* PhotoViewer.m */,
+				05803D37157C908700C59932 /* PhotoViewer.xib */,
 			);
 			path = FollowingFBPhotoLibrary;
 			sourceTree = "<group>";
@@ -151,6 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FB8AB5157BB185003DFC07 /* InfoPlist.strings in Resources */,
+				053C89F5157C4B00003F6E0F /* AlbumContentsTableViewCell.xib in Resources */,
+				053C89F7157C4B00003F6E0F /* AlbumContentsViewController.xib in Resources */,
+				053C89F9157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.xib in Resources */,
+				05803D39157C908700C59932 /* PhotoViewer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +215,12 @@
 				81FB8ABB157BB185003DFC07 /* AppDelegate.m in Sources */,
 				81FB8AC3157BB221003DFC07 /* PhotoContentViewController.m in Sources */,
 				81FB8AC6157BB278003DFC07 /* PhotoView.m in Sources */,
+				053C89F3157C4B00003F6E0F /* ThumbnailImageView.m in Sources */,
+				053C89F4157C4B00003F6E0F /* AlbumContentsTableViewCell.m in Sources */,
+				053C89F6157C4B00003F6E0F /* AlbumContentsViewController.m in Sources */,
+				053C89F8157C4B00003F6E0F /* AssetsDataIsInaccessibleViewController.m in Sources */,
+				053C89FA157C4B00003F6E0F /* ImageMultiPickerController.m in Sources */,
+				05803D38157C908700C59932 /* PhotoViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +324,7 @@
 				81FB8AC0157BB185003DFC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

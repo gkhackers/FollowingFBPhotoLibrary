@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "PhotoContentViewController.h"
+#import "ImageMultiPickerController.h"
+
 @implementation AppDelegate
 
 @synthesize window = _window;

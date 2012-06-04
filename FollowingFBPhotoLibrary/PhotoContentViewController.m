@@ -8,6 +8,8 @@
 
 #import "PhotoContentViewController.h"
 #import "PhotoView.h"
+#import "PhotoViewer.h"
+#import "ImageMultiPickerController.h"
 @implementation PhotoContentViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -15,7 +17,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        tempPhotoArray = [[NSArray alloc] initWithObjects:@"1", @"2",@"3",@"4",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1", nil];
+        tempPhotoArray = [[NSArray alloc] initWithObjects:@"1", @"2",@"3",@"4",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1", nil];    //photoview array
     }
     return self;
 }
@@ -46,6 +48,7 @@
         PhotoView *image = [[PhotoView alloc] initWithFrame:CGRectMake(0.0f + ((height + 38.0f) * indexPhoto), 0.0f + ((38.0f+height) *indexRow), 38.0f, 38.0f)];
         image.backgroundColor = [UIColor blackColor];
         image.userInteractionEnabled = YES;
+        image.delegate = self;
         [mainScrollView addSubview:image];
     }
 }
@@ -72,4 +75,28 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)showPhotoView:(PhotoView*)photo {
+    PhotoViewer * vc = [[PhotoViewer alloc] initWithNibName:@"PhotoViewer" bundle:nil];
+//    vc.photos = [[NSMutableArray alloc] initWithArray:tempPhotoArray];
+    
+    //    nv.view.frame = photo.frame;
+    [self.view addSubview:vc.view];
+//    nv.view.hidden = YES;
+//    [UIView beginAnimations:nil context:nil];
+//    [UIView setAnimationDuration:0.5];
+//    nv.view.hidden = NO;
+//    nv.view.frame = CGRectMake(0.0f, 0.0f, 320.0f, 460.0f);
+//    [UIView commitAnimations];
+    
+//    UIViewController *vc = [[UIViewController alloc] init];
+//    UIButton *bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    bt.frame = CGRectMake(0.0f, 0.0f, 100.0f, 30.0f);
+//    [bt addTarget:self action:@selector(test:) forControlEvents:UIControlEventTouchUpInside];
+//    [vc.view addSubview:bt];
+//    [self presentModalViewController:nv animated:YES];
+}
+
+- (void)previousThumnail:(id)sender {
+    NSLog(@"설마여기?");
+}
 @end

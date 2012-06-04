@@ -13,6 +13,8 @@
     NSDictionary *data;
     BOOL isZoomed;
     CGRect currentFrame;
+    __unsafe_unretained id _delegate;
 }
 @property (nonatomic, strong) NSDictionary *data;
+@property (nonatomic, assign) __unsafe_unretained id delegate;
 @end
